@@ -9,18 +9,38 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tony Stubblebine"]
-  s.date = %q{2010-11-28}
+  s.date = %q{2011-01-01}
   s.description = %q{internals for my big_* series of rails engines. Not meant for consumption in other places.}
   s.email = %q{tony@tonystubblebine.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
   ]
+  s.files = [
+    ".bundle/config",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.rdoc",
+    "Rakefile",
+    "VERSION",
+    "big_library.gemspec",
+    "lib/big_library.rb",
+    "lib/big_library/generators.rb",
+    "pkg/big_library-.gem",
+    "pkg/big_library-0.0.1.gem",
+    "test/helper.rb",
+    "test/test_big_library.rb"
+  ]
   s.homepage = %q{http://github.com/tonystubblebine/big_library}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Internals for my big_* series of rails engines. Not meant for consumption in other places.}
+  s.test_files = [
+    "test/helper.rb",
+    "test/test_big_library.rb"
+  ]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
