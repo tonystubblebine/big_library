@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{big_library}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tony Stubblebine"]
-  s.date = %q{2011-01-01}
+  s.date = %q{2011-02-18}
   s.description = %q{internals for my big_* series of rails engines. Not meant for consumption in other places.}
   s.email = %q{tony@tonystubblebine.com}
   s.extra_rdoc_files = [
