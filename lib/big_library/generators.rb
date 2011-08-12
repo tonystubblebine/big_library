@@ -11,6 +11,7 @@ module BigLibrary
 
     def copy_javascript
       copy_file 'assets/javascripts/rails.js',  'public/javascripts/big_lib_rails.js'
+      copy_file 'assets/javascripts/big_lib.js', 'public/javascripts/big_lib.js'
     end
 
     # Migration is the migration_class_name and the asset file should be named migration_class_name_migration.rb
